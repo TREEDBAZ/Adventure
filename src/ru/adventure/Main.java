@@ -5,7 +5,7 @@ package ru.adventure;
  */
 public class Main {
 
-    public static void Main(){
+    public static void main(String[] args){
         int fieldLength = 0, fieldHight = 0;
         Field.makeField(fieldLength,fieldHight);
 
