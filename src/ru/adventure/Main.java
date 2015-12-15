@@ -6,11 +6,13 @@ package ru.adventure;
 public class Main {
 
     public static void main(String[] args){
-        int fieldLength = 0, fieldHight = 0;
-        Field.makeField(fieldLength,fieldHight);
-
-
+        int fieldLength = 100, fieldHeight = 30;
+        Field.makeField(fieldLength,fieldHeight);
+        Animal cat = new Animal(0,0);
+        while (cat.getHealth() > 0) {
+            System.out.println(String.format("cat on (%d, %d) and health is %d", cat.getX(),
+                    cat.getY(), cat.getHealth()));
+            cat.makeTurn();
+        }
     }
-
-
 }

@@ -5,6 +5,9 @@ package ru.adventure;
  */
 public interface Creature {
 
-    public void makeTurn();
-
+    int getHealth();
+    int getMana();
+    void makeTurn();
+    int getX();
+    int getY();
 }

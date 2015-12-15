@@ -1,9 +1,9 @@
 package ru.adventure;
 
 /**
- * Created by TREED on 25.11.2015.
+ * Created by TREED on 07.12.2015.
  */
-public class Human extends Rational {
+public class Elf extends Rational {
     @Override
     public int getHealth() {
         return 0;
